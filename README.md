@@ -1,5 +1,7 @@
 <h1 align="center"> VNC server como servicio usando Jupyter como proxy </h1>
 
+![readme_logo](https://github.com/user-attachments/assets/cc6739b5-7a92-4a2d-8278-d7a18e2fbc08)
+
 ## Descripción
 Este proyecto incorpora NOVNC como servicio detras de JupyterLab Proxy. El objetivo es que multiples usuarios utilicen un escritorio remoto a traves de un navegador web utilizando la accesibilidad de JupyterHub y la plataforma de JupyterLab.
 
