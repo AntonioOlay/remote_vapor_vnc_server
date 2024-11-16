@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Start up the standard system desktop
+unset SESSION_MANAGER
+SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+export DISPLAY=$DISPLAY
+exec /usr/bin/startxfce4
+
+[ -x /opt/.vnc/xstartupvapor ] && exec /opt/.vnc/xstartupvapor
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+x-window-manager && exec /opt/VAPOR-3.9.2-Linux-x86_64.AppImage

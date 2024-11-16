@@ -1,0 +1,10 @@
+#!/bin/sh
+# Start up the standard system desktop
+unset SESSION_MANAGER
+SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+export DISPLAY=$DISPLAY
+exec /usr/bin/startxfce4
+[ -x /opt/.vnc/xstartup ] && exec /opt/.vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+x-window-manager &

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=5.3.4
+Type=Application
+Name=Panoply
+Exec=/opt/miniforge3/envs/desktops/bin/panoply
+Icon=/opt/.app_logos/panoply_logo.png
+Terminal=false
+StartupNotify=true
+Categories=Development

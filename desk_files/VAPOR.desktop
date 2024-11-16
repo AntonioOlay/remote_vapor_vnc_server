@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=3.9.2
+Type=Application
+Name=VAPOR
+Exec=/opt/VAPOR-3.9.2-Linux-x86_64.AppImage
+Icon=/opt/.app_logos/VAPOR_LOGO.png
+Terminal=false
+StartupNotify=true
+Categories=Development

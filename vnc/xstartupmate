@@ -1,0 +1,12 @@
+#!/bin/sh
+unset SESSION_MANAGER  #se elimina la variable de entorno SESSION_MANAGER con la que se inicia un escritorio
+unset DBUS_SESSION_BUS_ADDRESS #se elimina la variable de entorno
+export DISPLAY=$DISPLAY #Se crea una variable de entorno y se guarda nuevamente el id del usuario
+/usr/bin/dbus-launch --exit-with-session 
+exec /usr/bin/mate-session
+[ -x /opt/.vnc/xstartupmate ] && exec /opt/.vnc/xstartupmate
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+vncconfig -iconic &
+x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+x-window-manager &
