@@ -3,9 +3,9 @@
 ![readme_logo](https://github.com/user-attachments/assets/cc6739b5-7a92-4a2d-8278-d7a18e2fbc08)
 
 ## Descripción
-Este proyecto incorpora NOVNC como servicio detras de JupyterLab Proxy. El objetivo es que multiples usuarios utilicen un escritorio remoto a traves de un navegador web utilizando la accesibilidad de JupyterHub y la plataforma de JupyterLab.
+Este proyecto incorpora [NoVNC](https://novnc.com/info.html) como servicio detras de [JupyterLab Proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/index.html). El objetivo es que multiples usuarios utilicen un escritorio remoto a traves de un navegador web utilizando la accesibilidad de [JupyterHub](https://jupyter.org/hub) y la plataforma de [JupyterLab](https://jupyter.org).
 
-El escritorio remoto permite el uso de aplicaciones y programas que requieren una interfaz de usuario, gracias a esto, se incorporó NCAR Vapor, NASA Panoply y MATLAB como servicios adicionales.
+El escritorio remoto permite el uso de aplicaciones y programas que requieren una interfaz de usuario, gracias a esto, se incorporó [NCAR Vapor](https://www.vapor.ucar.edu), [NASA Panoply](https://www.giss.nasa.gov/tools/panoply/) y [MATLAB](https://www.mathworks.com/products/matlab.html) como servicios adicionales.
 
 ## Funcionamiento
 Los usuarios deben ser registrados con un usuario y contraseña con los cuales accederan desde JupyterHub. 
