@@ -2,6 +2,18 @@
 
 ![readme_logo](https://github.com/user-attachments/assets/cc6739b5-7a92-4a2d-8278-d7a18e2fbc08)
 
+
+[![noVNC badge](https://img.shields.io/badge/noVNC-green)](https://novnc.com/info.html)  [![jupyterlab badge](https://img.shields.io/badge/JupyterLab-orange)](https://jupyter.org) [![Static Badge](https://img.shields.io/badge/JupyterHub--orange)](https://jupyter.org/hub) ![Static Badge](https://img.shields.io/badge/XFCE-Desktop-00bdff)
+![Static Badge](https://img.shields.io/badge/MATE-Desktop-62a94b) ![Static Badge](https://img.shields.io/badge/NASA-Panoply-007cff) ![Static Badge](https://img.shields.io/badge/NCAR-Vapor-001fff)
+![Static Badge](https://img.shields.io/badge/NGINX-white)
+
+
+
+
+
+
+
+
 ## Descripción
 Este proyecto incorpora [NoVNC](https://novnc.com/info.html) como servicio detras de [JupyterLab Proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/index.html). El objetivo es que multiples usuarios utilicen un escritorio remoto a traves de un navegador web utilizando la accesibilidad de [JupyterHub](https://jupyter.org/hub) y la plataforma de [JupyterLab](https://jupyter.org).
 
