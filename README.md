@@ -685,5 +685,3 @@ Prestador de Practicas Profesionales Miguel Olaya
 
 
 
-![image](https://github.com/user-attachments/assets/b6b5d942-8141-4ea0-b467-afa39dd99f7a)
-
