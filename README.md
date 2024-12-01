@@ -614,7 +614,13 @@ curl -L -O https://github.com/NCAR/VAPOR/releases/download/v3.9.2/VAPOR-3.9.2-Li
  ```
 chmod 705 VAPOR-3.9.2-Linux-x86_64.AppImage
 ```
+```
+mamba search panoply --channel conda-forge
+```
+```
+mamba install panoply=5.3.4
 
+```
 1.	Ingresar al entorno de miniforge, dirigirse al directorio donde está el archivo de configuración. Iniciar y probar jupyterhub.
 
 ```
@@ -628,6 +634,32 @@ jupyterhub
 
 ![image](https://github.com/user-attachments/assets/9dca9ef9-ea68-41e3-87bb-9844fe4ee684)
 
+
+## Resultados
+
+![image](https://github.com/user-attachments/assets/cf300c36-9d42-4d92-9ab0-9735c184e017)
+
+MATE desktop
+
+![image](https://github.com/user-attachments/assets/21ca09f7-daf6-4b6c-af1f-c095eeace893)
+
+XFCE Desktop
+
+![image](https://github.com/user-attachments/assets/45658b36-390f-47a3-9a20-895ab30cb5c2)
+
+NCAR Vapor
+
+![image](https://github.com/user-attachments/assets/2600d0e6-4e82-420b-b774-b581634a741f)
+
+![image](https://github.com/user-attachments/assets/cad4e314-35be-414e-b81e-86cab7b31e65)
+
+NASA Panoply
+
+![image](https://github.com/user-attachments/assets/904e357d-efe1-4587-9c71-9f35acd8e218)
+
+![image](https://github.com/user-attachments/assets/db0ac8b6-cc1d-41dd-bff0-df4f5b2b3747)
+
+![image](https://github.com/user-attachments/assets/f08b7a31-f326-44a5-bcc1-37dd15f68370)
 
 
 ## Tecnologías utilizadas
@@ -650,3 +682,8 @@ Lic. en Informatica Pedro Cruz
 
 ## Personas Desarrolladoras del Proyecto
 Prestador de Practicas Profesionales Miguel Olaya
+
+
+
+![image](https://github.com/user-attachments/assets/b6b5d942-8141-4ea0-b467-afa39dd99f7a)
+
