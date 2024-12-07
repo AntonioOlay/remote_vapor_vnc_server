@@ -17,16 +17,16 @@
 ## Descripción
 Este proyecto incorpora [NoVNC](https://novnc.com/info.html) como servicio detras de [JupyterLab Proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/index.html). El objetivo es que multiples usuarios utilicen un escritorio remoto a traves de un navegador web utilizando la accesibilidad de [JupyterHub](https://jupyter.org/hub) y la plataforma de [JupyterLab](https://jupyter.org).
 
-El escritorio remoto permite el uso de aplicaciones y programas que requieren una interfaz de usuario, gracias a esto, se incorporó [NCAR Vapor](https://www.vapor.ucar.edu), [NASA Panoply](https://www.giss.nasa.gov/tools/panoply/) y [MATLAB](https://www.mathworks.com/products/matlab.html) como servicios adicionales.
+El escritorio remoto permite el uso de aplicaciones y programas que requieren una interfaz gráfica, gracias a esto, se incorporó [NCAR Vapor](https://www.vapor.ucar.edu) y [NASA Panoply](https://www.giss.nasa.gov/tools/panoply/) como servicios adicionales.
 
 ## Funcionamiento
-Los usuarios deben ser registrados con un usuario y contraseña con los cuales accederan desde JupyterHub. 
+1. Los usuarios deben ser registrados con un usuario y contraseña con los cuales accederan desde JupyterHub. 
 
-Se cargará la plataforma de JupyterLab y se visualizarán los servicios desde el menú.
+2. Se cargará la plataforma de JupyterLab y se visualizarán los servicios desde el menú.
 
-El usuario seleccionará el servicio deseado, será redirigido a otra ventana donde se cargará el escritorio de forma personalizada.
+3. El usuario seleccionará el servicio deseado, será redirigido a otra ventana donde se cargará el escritorio de forma personalizada.
 
-Si el usuario desea utilizar otro servicio, deberá seleccionarlo y el escritorio anterior se cerrará para cargar el nuevo escritorio.
+4. Si el usuario desea utilizar otro servicio, deberá seleccionarlo y el escritorio anterior se cerrará para cargar el nuevo escritorio.
 
 ## Acceso al Proyecto 
 Todos los archivos requeridos para realizar la instalación y configuración se encuentran en este repositorio.
